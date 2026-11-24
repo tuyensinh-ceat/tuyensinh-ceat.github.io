@@ -1,26 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website tuyển sinh</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b1730;
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
-    }
-    h1 { color: #f5c76b; }
-    p { color: #d4dbea; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thông tin tuyển sinh và các chương trình đào tạo CEAT">
+  <title>Tuyển sinh CEAT | Đào tạo và phát triển</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>WEBSITE TUYỂN SINH</h1>
-  <p>Hệ thống website đang được xây dựng.</p>
-  <p>Chào mừng bạn đến với trang thông tin tuyển sinh!</p>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">C</span>
+        <span>CEAT <small>TUYỂN SINH & ĐÀO TẠO</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+      <nav class="nav" id="mainNav">
+        <a class="active" href="index.html">Trang chủ</a>
+        <a href="chuong-trinh.html">Chương trình đào tạo</a>
+        <a href="tuyen-sinh.html">Tuyển sinh</a>
+        <a href="tin-tuc.html">Tin tức</a>
+        <a href="hoi-dap.html">Hỏi đáp</a>
+        <a href="lien-he.html">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">CEAT · CƠ HỘI HỌC TẬP MỚI</span>
+        <h1>Kiến thức hôm nay<br>Vững bước ngày mai</h1>
+        <p>
+          Cập nhật các chương trình đào tạo ngắn hạn,
+          dài hạn và thông tin tuyển sinh dành cho người học.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="chuong-trinh.html">Khám phá chương trình</a>
+          <a class="btn btn-outline" href="lien-he.html">Đăng ký tư vấn</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">CHƯƠNG TRÌNH ĐÀO TẠO</span>
+          <h2>Lựa chọn lộ trình phù hợp</h2>
+          <p>Nhiều chương trình học tập đáp ứng nhu cầu nâng cao kiến thức và phát triển nghề nghiệp.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="card-icon">01</div>
+            <h3>Đào tạo ngắn hạn</h3>
+            <p>Các khóa học nghiệp vụ, chứng chỉ và kỹ năng chuyên môn.</p>
+            <a class="text-link" href="chuong-trinh.html#ngan-han">Xem chương trình →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon">02</div>
+            <h3>Đào tạo dài hạn</h3>
+            <p>Các chương trình đào tạo trình độ đại học và văn bằng 2.</p>
+            <a class="text-link" href="chuong-trinh.html#dai-han">Xem chương trình →</a>
+          </article>
+          <article class="card">
+            <div class="card-icon">03</div>
+            <h3>Tư vấn tuyển sinh</h3>
+            <p>Hỗ trợ tìm hiểu chương trình, hồ sơ và quy trình đăng ký.</p>
+            <a class="text-link" href="lien-he.html">Liên hệ ngay →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow dark">THÔNG TIN MỚI</span>
+          <h2>Tin tức tuyển sinh</h2>
+          <p>Cập nhật thông báo, lịch khai giảng và hoạt động đào tạo.</p>
+        </div>
+        <div class="grid">
+          <article class="card news-card">
+            <span class="tag">Tuyển sinh</span>
+            <h3>Thông báo tuyển sinh các chương trình đào tạo</h3>
+            <p>Thông tin chương trình, đối tượng và cách thức đăng ký.</p>
+            <a class="text-link" href="tin-tuc.html">Tìm hiểu thêm →</a>
+          </article>
+          <article class="card news-card">
+            <span class="tag">Đào tạo</span>
+            <h3>Các khóa học nâng cao nghiệp vụ</h3>
+            <p>Cập nhật những chương trình học tập đang được triển khai.</p>
+            <a class="text-link" href="tin-tuc.html">Tìm hiểu thêm →</a>
+          </article>
+          <article class="card news-card">
+            <span class="tag">Thông báo</span>
+            <h3>Hướng dẫn đăng ký và tư vấn hồ sơ</h3>
+            <p>Những thông tin cần biết trước khi đăng ký học.</p>
+            <a class="text-link" href="tuyen-sinh.html">Tìm hiểu thêm →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <span class="eyebrow">BẮT ĐẦU HÀNH TRÌNH HỌC TẬP</span>
+          <h2>Bạn đang quan tâm chương trình nào?</h2>
+          <p>Liên hệ để được tư vấn thông tin tuyển sinh.</p>
+        </div>
+        <a class="btn btn-gold" href="lien-he.html">Đăng ký tư vấn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <h3>CEAT – TUYỂN SINH & ĐÀO TẠO</h3>
+        <p>Thông tin chương trình đào tạo và tuyển sinh.</p>
+      </div>
+      <div class="footer-links">
+        <a href="chuong-trinh.html">Chương trình đào tạo</a>
+        <a href="tin-tuc.html">Tin tức</a>
+        <a href="lien-he.html">Liên hệ</a>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 CEAT. Thông tin tuyển sinh và đào tạo.</div>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
